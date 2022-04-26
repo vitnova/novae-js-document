@@ -1,1 +1,1 @@
-"# novae-js-document" 
+# novae-js-document
