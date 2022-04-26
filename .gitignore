@@ -1,5 +1,5 @@
 node_modules
-vuepress/docs/.vuepress/dist
+docs/.vuepress/dist
 .temp
 .cache
 package-lock.json
