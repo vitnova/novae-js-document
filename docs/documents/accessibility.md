@@ -40,7 +40,6 @@ getVoice: function(text, callback) {
   使用阿里云文字转语音接口的Node.js服务端例子
 
 ```javascript
-...
 const request = require('request'),
 	  RPCClient = require('@alicloud/pop-core').RPCClient,
 	  express = require('express'),
@@ -115,7 +114,6 @@ function processPOSTRequest(appkeyValue, tokenValue, textValue, formatValue, cal
 
 app.get('/tts.mp3', (req, res) => {
 	let params = req.query
-	console.log(req.headers)
 	if (! Referer.test(req.headers["referer"])) {
 		res.status(403)
 		   .set({
