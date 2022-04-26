@@ -1,9 +1,10 @@
 const { searchPlugin } = require('@vuepress/plugin-search')
+const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
 	title: 'Novae',
 	description: '用以构建界面，开箱即用的JavaScript框架',
-    themeConfig: {
+    theme: defaultTheme({
         navbar: [{
             text: '指南',
 			link: '/guide/'
@@ -30,8 +31,8 @@ module.exports = {
 				}
 			]
 		}
-    },
+    }),
 	plugins: [
-		//searchPlugin(),
+		//searchPlugin()
 	]	
 }
