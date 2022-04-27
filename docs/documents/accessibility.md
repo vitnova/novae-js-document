@@ -11,6 +11,7 @@
 
   1. ```text``` (string): 朗读的文本
   2. ```callback``` (Function): 回调方法，需要在获取到朗读语音数据后，将数据作为该函数变量的参数运行
+  3. ```onCancel``` (Function(Function)): 取消事件监听器，在当前朗读语音数据未接收完毕且又有新的朗读项时，会触发您传入参数列表的取消回调函数，用以取消当前语音数据的请求事件
   
 - 返回值
 
@@ -22,7 +23,7 @@
 
 ```javascript
 ...
-getVoice: function(text, callback) {
+getVoice: function(text, callback, onCancel) {
 			let xhr = new XMLHttpRequest()
 			// 接口地址，此处以我们提供的服务端代码所构造的路径地址举例
 			xhr.open('GET', "//...:3000/tts.mp3?text=" + encodeURIComponent(text))
@@ -33,6 +34,10 @@ getVoice: function(text, callback) {
 				}
 			}
 			xhr.send()
+			
+			onCancel(() => {
+				xhr.abort()
+			})
 		},
 ...		
 ```
