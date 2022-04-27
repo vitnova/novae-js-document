@@ -81,7 +81,9 @@ Novae.router([
 ])
 ```
 
-&emsp;&emsp;配置完后您就可以在地址栏通过路径```#courses/123/456/score```（中间的两项可替换为任何合法的值，在```TestComponent```中可以通过```this.params.courseID```以及```this.params.sNo```进行获取），也可以由```#regExp/123```（```/123```可替换为其他值）转到，此外也可以通过[```goTo```](../documents/router.html#goto)方法转到。
+&emsp;&emsp;配置完后您就可以在地址栏通过路径```#courses/123/456/score```（中间的两项可替换为任何合法的值，在```TestComponent```中可以通过```this.params.courseID```以及```this.params.sNo```进行获取），也可以由```#regExp/123```（```/123```可替换为其他值）转到。
+
+&emsp;&emsp;此外也可以通过```name```字段，运行[```goTo```](../documents/router.html#goto)方法转到，该例子就可以通过```goTo("Score")```以及```goTo("RegExp")```方法转到。
 
 ## 结语
 
