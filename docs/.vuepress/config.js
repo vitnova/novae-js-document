@@ -27,10 +27,11 @@ module.exports = {
 				{
 					text: '指南',
 					collapsible: false,
-					children: ['/guide/README.md']
+					children: ['/guide/README.md', '/guide/vnode.md', '/guide/router.md', '/guide/server.md', '/guide/load.md']
 				}
 			]
-		}
+		},
+		lastUpdated: false
     }),
 	plugins: [
 		//searchPlugin()
