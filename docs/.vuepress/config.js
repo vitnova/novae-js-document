@@ -1,21 +1,21 @@
-import { searchPlugin } from '@vuepress/plugin-search'
+// import { searchPlugin } from '@vuepress/plugin-search'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
 	title: 'Novae',
 	description: '用以构建界面，开箱即用的JavaScript框架',
-    theme: defaultTheme({
-        navbar: [{
-            text: '指南',
+	theme: defaultTheme({
+		navbar: [{
+			text: '指南',
 			link: '/guide/'
-        },{
-            text: '文档',
+		},{
+			text: '文档',
 			link: '/documents/'
-        },{
-            text: '关于',
+		},{
+			text: '关于',
 			link: '/about/'
-        }],
+		}],
 		sidebar: {
 			'/documents/': [
 				{
@@ -34,17 +34,19 @@ export default defineUserConfig({
 			]
 		},
 		lastUpdated: false
-    }),
+	}),
 	plugins: [
+	/*
 		searchPlugin({
-		  locales: {
-			'/': {
-				placeholder: 'Search',
+			locales: {
+				'/': {
+					placeholder: 'Search',
+				},
+				'/zh/': {
+					placeholder: '搜索',
+				},
 			},
-			'/zh/': {
-				placeholder: '搜索',
-			},
-		  },
 		}),
+	*/
 	]	
 })

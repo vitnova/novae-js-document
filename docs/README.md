@@ -9,13 +9,6 @@ actions:
     type: secondary	
 footer: MIT Licensed | Copyright © 2022 Li Xinrui
 ---
-## 安装
-
-```shell
-npm install novae-js
-```
-
-
 ## 初始化
 
 ```javascript
