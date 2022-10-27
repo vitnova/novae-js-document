@@ -1,7 +1,8 @@
-const { searchPlugin } = require('@vuepress/plugin-search')
-const { defaultTheme } = require('@vuepress/theme-default')
+import { searchPlugin } from '@vuepress/plugin-search'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
 
-module.exports = {
+export default defineUserConfig({
 	title: 'Novae',
 	description: '用以构建界面，开箱即用的JavaScript框架',
     theme: defaultTheme({
@@ -35,6 +36,15 @@ module.exports = {
 		lastUpdated: false
     }),
 	plugins: [
-		//searchPlugin()
+		searchPlugin({
+		  locales: {
+			'/': {
+				placeholder: 'Search',
+			},
+			'/zh/': {
+				placeholder: '搜索',
+			},
+		  },
+		}),
 	]	
-}
+})
