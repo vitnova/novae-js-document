@@ -20,7 +20,7 @@ module.exports = {
 				{
 					text: '文档',
 					collapsible: false,
-					children: ['/documents/README.md', '/documents/novae.md', '/documents/components.md', '/documents/utils.md', '/documents/ssr.md', '/documents/router.md', '/documents/accessibility.md', '/documents/load.md'],
+					children: ['/documents/README.md', '/documents/novae.md', '/documents/components.md', '/documents/utils.md', '/documents/ssr.md', '/documents/router.md', '/documents/accessibility.md', '/documents/load.md']
 				}
 			],
 			'/guide/': [
@@ -28,7 +28,7 @@ module.exports = {
 					text: '指南',
 					collapsible: false,
 					children: ['/guide/README.md']
-					// '/guide/vnode.md', '/guide/router.md', '/guide/server.md', '/guide/load.md', '/guide/test.md'
+					/* '/guide/vnode.md', '/guide/router.md', '/guide/server.md', '/guide/load.md', '/guide/test.md' */
 				}
 			]
 		},
