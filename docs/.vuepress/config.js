@@ -1,4 +1,4 @@
-// import { searchPlugin } from '@vuepress/plugin-search'
+import { searchPlugin } from '@vuepress/plugin-search'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
@@ -36,7 +36,6 @@ export default defineUserConfig({
 		lastUpdated: false
 	}),
 	plugins: [
-	/*
 		searchPlugin({
 			locales: {
 				'/': {
@@ -47,6 +46,5 @@ export default defineUserConfig({
 				},
 			},
 		}),
-	*/
 	]	
 })

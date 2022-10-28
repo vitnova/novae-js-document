@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5da2181b","path":"/guide/test.html","title":"首屏构建速度测试","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"contributors":[{"name":"vitnova1","email":"vipplaycc@vip.qq.com","commits":2}]},"filePathRelative":"guide/test.md"}');export{t as data};

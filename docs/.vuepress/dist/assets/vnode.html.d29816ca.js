@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3b51ab66","path":"/guide/vnode.html","title":"虚拟DOM","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"虚拟DOM工作机理","slug":"虚拟dom工作机理","link":"#虚拟dom工作机理","children":[]}],"git":{"contributors":[{"name":"vitnova","email":"vipplaycc@vip.qq.com","commits":1}]},"filePathRelative":"guide/vnode.md"}');export{e as data};

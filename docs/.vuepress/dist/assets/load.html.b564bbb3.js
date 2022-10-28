@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1266a772","path":"/guide/load.html","title":"懒加载","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"contributors":[{"name":"vitnova","email":"vipplaycc@vip.qq.com","commits":1},{"name":"vitnova1","email":"vipplaycc@vip.qq.com","commits":1}]},"filePathRelative":"guide/load.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-c0f957a0","path":"/documents/","title":"介绍","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"contributors":[{"name":"vitnova","email":"vipplaycc@vip.qq.com","commits":1}]},"filePathRelative":"documents/README.md"}');export{t as data};

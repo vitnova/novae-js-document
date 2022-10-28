@@ -1,0 +1,1 @@
+import{_ as c,o,c as n,b as e,d as t}from"./app.89bfc664.js";const s={},_=e("p",null,[t("  星团的释义为恒星间汇聚而成的耀眼星群；"),e("br"),t("   本框架希望借助如恒星般存在的优秀开源项目的肩膀，成为其中的一员，共建优秀开源社区；"),e("br"),t("   以践行2022年北京冬奥会口号“一起向未来”，携手构建人类命运共同体，绘出美美与共，天下大同的宏伟蓝图。")],-1),r=[_];function a(d,l){return o(),n("div",null,r)}const f=c(s,[["render",a],["__file","index.html.vue"]]);export{f as default};
